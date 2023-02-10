@@ -6,11 +6,15 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "eas:dev-sim:build": "eas build --profile development-simulator --platform ios"
   },
   "dependencies": {
+    "eas-cli": "^3.5.2",
     "expo": "~47.0.12",
+    "expo-dev-client": "~2.0.1",
     "expo-status-bar": "~1.4.2",
+    "global": "^4.4.0",
     "react": "18.1.0",
     "react-native": "0.70.5"
   },
