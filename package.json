@@ -9,7 +9,7 @@
     "web": "expo start --web",
     "eas:dev-sim:build": "eas build --profile development-simulator --platform ios",
     "e2e:start": "npx expo start --dev-client",
-    "e2e:run:ios": "APP_VARIANT=testing detox test --configuration ios.sim.debug --reuse"
+    "e2e:run:ios": "detox test --configuration ios.sim.debug --reuse"
   },
   "dependencies": {
     "@types/react": "~18.0.24",
